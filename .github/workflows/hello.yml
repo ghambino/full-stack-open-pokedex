@@ -6,12 +6,10 @@ on:
           -master
 
 jobs:
-  hello_world_jobs:
-
-  runs-on: windows-2016
-  
+  name: hello_world_jobs
+  runs-on: windows-latest
   steps: 
-    -name: say hello
-    run:
+    name: say hello
+    run: |
       console.log("hello word")
 

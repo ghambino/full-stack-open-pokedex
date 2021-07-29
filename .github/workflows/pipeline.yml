@@ -4,7 +4,7 @@ on:
       branches: 
             - master
   jobs:
-  name: simple_deployment_pipeline:
+  name: simple deployment pipeline
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2

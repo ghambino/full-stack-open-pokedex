@@ -5,7 +5,7 @@ on:
             - master
 
   jobs:
-  simple_deployment_pipeline:
+  name: simple_deployment_pipeline
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2

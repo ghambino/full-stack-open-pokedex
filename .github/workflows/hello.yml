@@ -8,8 +8,8 @@ jobs:
   runs-on: ubuntu-18.04
   steps: 
     -name: say hello
-    run: | 
+    run:
       echo "Hello World"
     -name: time declaration
-      run: |
+      run: 
         date

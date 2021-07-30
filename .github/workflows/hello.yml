@@ -10,3 +10,9 @@ jobs:
     -name: say hello
     run: |
       echo "Hello World"
+    -name: display date
+    run: |
+      date
+    -name: content disposition
+    run: |
+      ls -l

@@ -1,4 +1,4 @@
-name: pipeline activation and setup!
+name: pipeline activation!
 
 on: 
   push:

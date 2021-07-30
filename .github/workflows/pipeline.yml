@@ -1,4 +1,4 @@
-name: simple deployment!
+name: Simple Deployment!
 
 on: 
   push:
